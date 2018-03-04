@@ -1,7 +1,7 @@
 # tools-classification
 
 This repository aims to develop a robust algorithm to classifiy a dataset of tools available here : 
-http://www.usine-agile.fr/ datas/22-cnn-datas-1.html) 
+http://www.usine-agile.fr/datas/22-cnn-datas-1.html) 
 
 The first solution consists in using transfer learning. We use Keras and VGG16 CNN to extract features from the ilmages, and then,
 due to the little amount of images, we use a SVM to classify the images.
