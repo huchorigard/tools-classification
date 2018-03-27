@@ -15,3 +15,5 @@ The insight is to give a robot the abilty to classify the tools in a workspace, 
 Example :
 Human : "give me the screwdriver!"
 Robot has to recognize the screwdriver and to give it to the human.
+
+Update : we are soon uploading new results, based on an augmented database. We also are testing new classifiers.
