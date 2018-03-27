@@ -16,4 +16,4 @@ Example :
 Human : "give me the screwdriver!"
 Robot has to recognize the screwdriver and to give it to the human.
 
-Update : we are soon uploading new results, based on an augmented database. We also are testing new classifiers.
+Update : we are soon uploading new results, based on an augmented database. We also are testing other classifiers.
