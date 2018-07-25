@@ -6,8 +6,8 @@
         1000,
         50
       ],
-      "tensorPath": "https://gist.github.com/huchorigard/da586056a603fad80107fc8af5e5db1d#file-meta_distance_fp",
-      "metadataPath": "https://gist.github.com/huchorigard/fbbe5a9a610cb4e151020a3e018ba05e"
+      "tensorPath": "https://gist.githubusercontent.com/huchorigard/fbbe5a9a610cb4e151020a3e018ba05e/raw/08490f60c09329f0ee6e07deab7f79d05819e86d/data_distance_FP.tsv",
+      "metadataPath": "https://gist.githubusercontent.com/huchorigard/da586056a603fad80107fc8af5e5db1d/raw/fda60d1f3938bee189c427019c175e39681544f0/meta_distance_FP.tsv"
     }
   ]
 }
