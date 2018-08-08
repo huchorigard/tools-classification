@@ -1,19 +1,51 @@
-# tools-classification
+# Python script for image classification
 
-This repository aims to develop a robust algorithm to classifiy a dataset of tools available here : 
-http://www.usine-agile.fr/datas/22-cnn-datas-1.html)
-The database is divided into 5 parts : each part is a set of images of 7 different tools, but with different conditions. You can vizualise the images and the conditions in the jupyter notebook.
+Note: To use the scripts, you must add the tool dataset in th same folder. You can find it at : tools.tar.gz .It contains everything related to this dataset.
 
-The first solution consists in using transfer learning. We use Keras and VGG16 CNN to extract features from the ilmages, and then,
-due to the little amount of images, we use a SVM to classify the images.
+### 1. TITLE: 
 
-This first approach is a Supervised learning problem. But the final aim is to have a solution that is able to detect novelties 
-and to continuously learn. In fact the algorithm is aimed to be deployed for collaborative robots (colrobots).
+      Image classificaion algorithm for a tool dataset
 
-The insight is to give a robot the abilty to classify the tools in a workspace, in order to help the human in their every day tasks.
+### 2. CONTACT: 
 
-Example :
-Human : "give me the screwdriver!"
-Robot has to recognize the screwdriver and to give it to the human.
+      Hugo RICHARD
+      Ecole Nationale supérieure des Arts et Métiers
+      8 Boulevard Louis XIV
+      59800 LILLE
+      FRANCE
+      Tel. (+33) 760964267
+      email: hugo.richard@ensam.eu
 
-Update : we are soon uploading new results, based on an augmented database. We also are testing other classifiers.
+### 3. RELEVANT INFORMATION:
+      
+      This repository contains :
+            + Jupyter Notebooks, that are useful to first understand the code : 
+      - Extract features wit VGG16.ipynb
+      - Feature Visualization (PCA and t-SNE).ipynb
+      - NN Classification.ipynb
+      - Stock images into numpy array.ipynb
+      - SVM Classification.ipynb
+
+            + saved numpy arrays (only useful inside th code) :
+      - features.npy
+      - other numpy arrays in the features_fc1 and labels folder
+
+            + Python scripts : 
+      - Extract features wit VGG16.py
+      - Feature Visualization (PCA and t-SNE).py
+      - NN Classification.py
+      - Stock images into numpy array.py
+      - SVM Classification.py
+
+
+
+### 4. HOW TO USE THE SCRIPTS
+
+      First, with the 'Stock images into numpy array.ipynb' we transform the database from images in subfolders into a usefull numpy array.
+      Then with the 'Extract features wit VGG16.ipynb', we use a pretrained CNN to extract features from the images.
+      Now w want to visualize the features with PCA and t-SNE in 'Feature Visualization (PCA and t-SNE).ipynb'
+      The next step is to manage to classify these features. First we try with a SVM in 'SVM Classification.ipynb', then with a Neural Network in 'NN Classification.ipynb'.
+
+### 4. UPCOMING WORK
+      
+      I am currently working on classifying the features with siamese networks, but before posting anything I still have to work on it.    
